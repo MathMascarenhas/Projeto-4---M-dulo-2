@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/styleDetails.css">
+    <title>Projeto 4</title>
+</head>
+<body>
+    
+    <%- include('./components/header') %>
+
+    <main>
+        <section id="detail">
+
+                
+            <div>
+                <img src="<%= artist.img %>" alt="imagem artista">
+                <article>
+                    <h2><%= artist.name %></h2>
+                    <p><%= artist.description %></p>
+                    <div id="infos">
+                    <p>Gênero Musical - <%= artist.type%></p>
+                    <p>Último Lançamento - <a href="<%= artist.link_last_release%>"><%= artist.last_release%></a></p>
+                    </div>
+                    <div id="buttons">
+                        <a id="edit" href="/editPage/<%= artist.id %>">Editar</a>
+                        <a id="delete" href="/delet/<%= artist.id %>">Deletar</a>
+                    </div>
+                </article>
+            </div>
+                <iframe style="border-radius:12px" src="<%= artist.playlist %>" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </section>
+    </main>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
+

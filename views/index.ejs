@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projeto 4</title>
+</head>
+<body>
+
+    <%- include('./components/header') %>
+
+    <main>
+
+        <% if(message != ""){ %>
+            <section id="mensagem">
+              <p><%= message%></p>
+              <span id="close">&times;</span>
+            </section>
+         <% } %>
+
+        <section id="artistas">
+
+            <h2>SUAS DESCOBERTAS</h2>
+
+            <% artists.forEach((artista) => { %>
+            <div class="artista">
+              <a href="/artists/<%= artista.id %>"
+                ><img src="<%= artista.img %>" alt="imagem artista"
+              /></a>
+              <h2><%= artista.name %></h2>
+            </div>
+            <% }) %>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Página criada por <a href="https://github.com/MathMascarenhas">Matheus Mascarenhas</a></p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

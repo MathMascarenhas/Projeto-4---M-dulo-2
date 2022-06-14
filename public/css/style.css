@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Monoton&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: 'Josefin Sans', sans-serif; 
+}
+
+body {
+   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(168%2c 199%2c 100%2c 1)'%3e%3c/rect%3e%3cg transform='translate(0%2c 0)' stroke-linecap='round'%3e%3cpath d='M260 173.02 L260 386.98' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M280 185.76 L280 374.24' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M300 172.72 L300 387.28' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M320 165.3 L320 394.7' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M340 167.47 L340 392.53' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M360 109.38 L360 450.62' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M380 146.31 L380 413.69' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M400 235.03 L400 324.97' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M420 158.14 L420 401.86' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M440 216.1 L440 343.9' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M460 192.43 L460 367.57' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M480 255 L480 305' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M500 226.18 L500 333.82' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M520 108.04 L520 451.96' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M540 171.47 L540 388.53' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M560 116.6 L560 443.39' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M580 241.69 L580 318.31' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M600 191.76 L600 368.24' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M620 213.26 L620 346.74' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M640 202.93 L640 357.07' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M660 181.41 L660 378.59' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M680 176.81 L680 383.19' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M700 167 L700 393' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M720 239.45 L720 320.55' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M740 200.35 L740 359.65' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M760 228.55 L760 331.45' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M780 160.88 L780 399.12' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M800 189.62 L800 370.38' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M820 121.97 L820 438.03' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M840 231.29 L840 328.71' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M860 162.54 L860 397.46' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M880 189.28 L880 370.72' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M900 125.47 L900 434.53' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M920 108.37 L920 451.63' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M940 184.22 L940 375.78' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M960 206.76 L960 353.24' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M980 153.72 L980 406.27' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1000 119.28 L1000 440.72' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1020 181.6 L1020 378.4' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1040 126.44 L1040 433.56' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1060 173.69 L1060 386.31' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1080 134.84 L1080 425.16' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1100 259.18 L1100 300.82' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1120 261.49 L1120 298.51' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1140 138.24 L1140 421.76' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1160 125.99 L1160 434.01' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3cpath d='M1180 155.24 L1180 404.76' stroke-width='15' stroke='rgba(89%2c 120%2c 20%2c 1)'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+nav {
+    position: fixed;
+    background-color: rgb(89, 120, 20);
+    width: 100%;
+    padding: 1.5rem;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    color: rgb(214, 239, 159);
+}
+
+
+nav section#nav {
+    display: flex;
+    padding-right: 2rem;
+}
+
+nav section#nav a {
+text-decoration: none;
+    color: rgb(214, 239, 159);
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding: 1rem;
+    transition: 0.5s, ease-in-out;
+}
+
+nav section#nav a:hover {
+    transform: scale(1.2);
+}
+
+section#mensagem {
+    padding: 1.5rem;
+    background-color: rgb(220, 236, 185);
+    color: rgb(89, 120, 20);
+    position: fixed;
+    top: 7rem;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span#close {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+main section#artistas {
+    padding-top: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+main section#artistas h2 {
+    width: 100%;
+    color:rgb(220, 236, 185);
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+main section#artistas div.artista {
+    width: 20rem;
+    padding: 1rem;
+    margin: 5rem 0 5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.3px);
+    -webkit-backdrop-filter: blur(2.3px);
+    border: 1px solid rgba(255, 255, 255, 0.23);
+    transition: 0.5s, ease-in-out;
+} 
+
+main section#artistas div.artista:hover {
+    background: rgba(255, 255, 255, 0.38);
+}
+
+main section#artistas div.artista a img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+main section#artistas div.artista h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+
+footer {
+    background-color: rgb(89, 120, 20);
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(214, 239, 159);
+    cursor: pointer;
+    transition: 0.5s, ease-in-out;
+}
+
+footer p a:hover {
+    text-decoration: none;
+    color: rgb(17, 22, 6);
+}
+
+@media (max-width: 682px) {
+    nav h1 {
+      font-size: 1rem;
+    }
+
+    nav section#nav a {
+      padding: 0.5rem;
+      font-size: 0.5rem;
+    }
+
+    main section#artistas h2 {
+        font-size: 1rem;
+    }
+
+    main section#artistas div.artista{
+      width: 60%;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
