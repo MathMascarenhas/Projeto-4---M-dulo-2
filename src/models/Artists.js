@@ -47,4 +47,10 @@ const Artists = database.sequelize.define(
     }
 );
 
+const initTable = async () => {
+    await Artists.sync();
+}
+
+initTable(); 
+
 module.exports = Artists ;
