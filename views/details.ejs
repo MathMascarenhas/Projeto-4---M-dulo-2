@@ -23,7 +23,7 @@
                     <p><%= artist.description %></p>
                     <div id="infos">
                     <p>Gênero Musical - <%= artist.type%></p>
-                    <p>Último Lançamento - <a href="<%= artist.link_last_release%>"><%= artist.last_release%></a></p>
+                    <p>Último Lançamento - <a href="<%= artist.link_last_release%>" target="_blank"><%= artist.last_release%></a></p>
                     </div>
                     <div id="buttons">
                         <a id="edit" href="/editPage/<%= artist.id %>">Editar</a>
